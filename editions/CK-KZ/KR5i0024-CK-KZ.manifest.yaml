@@ -1,0 +1,37 @@
+canonical_identifier: bkk:krp/KR5i0024/CK-KZ/v1
+canonical_location: https://kanripo.org/bkk/KR5i0024/CK-KZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 九皇斗姥戒殺延生真經
+  date: '2015-08-29 17:49:12.115174'
+  source:
+    repository: kanripo
+    path: KR5i0024
+  image_base_urls:
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+  edition:
+    short: CK-KZ
+    label: 【重刊道藏輯要】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 1, filename: KR5i0024_001-CK-KZ.yaml, hash: 'sha256:5b15dcea32690791c90484db236e5a56f8159a52386c35ecfbb6371c7071b3b5'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR5i0024_001-CK-KZ.markers.yaml, hash: 'sha256:9f4d25de8d4a269d630dc92a155ebd633188061539cac833f8624baa0f0c295b'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: CK-KZ_KR5i0024_01p001a
+    span:
+    - body
+    - 0
+    - 13947
+  label: juan 001
+  type: section
+  level: 1
+hash: sha256:a61e76e72bce6c30538f2ff39cb39679b1cf573d0deb030ff1b662c04c0b3804

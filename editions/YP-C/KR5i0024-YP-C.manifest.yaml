@@ -1,0 +1,37 @@
+canonical_identifier: bkk:krp/KR5i0024/YP-C/v1
+canonical_location: https://kanripo.org/bkk/KR5i0024/YP-C/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 九皇斗姥戒殺延生真經
+  date: '2015-08-29 17:49:12.115174'
+  source:
+    repository: kanripo
+    path: KR5i0024
+  image_base_urls:
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+  edition:
+    short: YP-C
+    label: 【原版道藏輯要】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 1, filename: KR5i0024_001-YP-C.yaml, hash: 'sha256:8061c5bd63810fc429146213bcf191b0150110c9c61c36fb6b32731a2e126eac'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR5i0024_001-YP-C.markers.yaml, hash: 'sha256:522e3404cdf7605f7a2e0927f8e970a37f3cdd5f2d663d86f1922b6e1ada0a44'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: YP-C_KR5i0024_08douji-01-0026a
+    span:
+    - body
+    - 0
+    - 13947
+  label: juan 001
+  type: section
+  level: 1
+hash: sha256:041636d29700bcdad5469110228f68201e3b3b5472d164c6b034ee56948e4d8a
